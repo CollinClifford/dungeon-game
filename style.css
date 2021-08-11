@@ -1,0 +1,74 @@
+*, *::before, *::after {
+    box-sizing: boarder-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-image: url("img/castle.jpg");
+}
+
+main {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: #1A090D;
+    font-size: 30px;
+}
+
+.container {
+    text-align: center;
+    color: #A8BA9A;
+    width: 800px;
+    max-width: 80%;
+    background-image:url("img/brick.jpg");
+    padding: 10px;
+    border: 2px, solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #6B6570;
+    border: 2px solid #1A090D;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #1A090D;
+    outline: none;
+    font-size: 25px;
+    box-shadow: 0 0 5px 1px;
+}
+
+.btn:hover {
+    border-color: #A8BA9A;
+    color: #A8BA9A;
+}
+
+.btn:active {
+    border-color: #A8BA9A;
+    color: #A8BA9A;
+}
+
+.background-btn {
+    background-color: #6B6570;
+    border: 2px solid #1A090D;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #1A090D;
+    outline: none;
+    font-size: 15px;
+    box-shadow: 0 0 5px 1px;
+    margin-right: 20px;
+}
+
+
