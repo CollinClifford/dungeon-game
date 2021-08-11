@@ -14,7 +14,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     color: #1A090D;
     font-size: 30px;
 }
@@ -71,4 +71,30 @@ main {
     margin-right: 20px;
 }
 
+.hlth {
+    background-color: #6B6570;
+    border: 2px solid #1A090D;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #1A090D;
+    outline: none;
+    font-size: 20px;
+    box-shadow: 0 0 5px 1px;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: center;
+}
 
+.inv {
+    background-color: #6B6570;
+    border: 2px solid #1A090D;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #1A090D;
+    outline: none;
+    font-size: 20px;
+    box-shadow: 0 0 5px 1px;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: center;
+}

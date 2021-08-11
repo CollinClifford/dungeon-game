@@ -1,20 +1,59 @@
 const textElement = document.getElementById('text');
 const optionButtonsElement = document.getElementById('option-buttons');
+const healthBarElement = document.getElementById('health')
 
-let state = {};
-let health = {};
+let state = {
+    sword: true,
+    lamp: true,
+    holyRelic: false,
+    healingPotion: false,
+    gold: false,
+    longSword: false,
+    shield: false
+};
+let health = {
+    health: 20,
+    sanity: 20,
+    strength: 10,
+    chance: 5
+};
+
+// const monsterEncounter = [
+//     {
+//         id: 111,
+//         text: "You've encountered a thief!",
+//         options = [
+//             {
+//                 text: "Run!"
+//             },
+//             {
+//                 text: "Fight!"
+//             }
+//         ]
+//     },
+//     {
+//         id: 222,
+//         text: "You've encountered a ghoul!",
+//         options = [
+//             {
+//                 text: "Run!"
+//             },
+//             {
+//                 text: "Fight!"
+//             }
+//         ]
+//     }
+
+// ]
+
 
 function startGame() {
-    health = {
-        health: 20,
-        sanity: 20
-    };
-    state = {
-        sword: true,
-        lamp: true
-    };
+    health;
+    state;
     showTextNode(1);
 };
+
+healthBarElement.innerText = `health: ${health.health}, sanity: ${health.sanity}, strength: ${health.strength}, luck: ${health.chance}.`
 
 function showTextNode(textNodeIndex) {
     const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
@@ -92,8 +131,8 @@ textNodes = [
             requiredState: (currentState) => currentState.lamp 
         },
         {
-            text: 'continue blidly',
-            nextText: 5
+            text: 'continue blindly',
+            nextText: 2
         }
     ]
     },

@@ -1,0 +1,20 @@
+{
+  "name": "dungeon-of-doom",
+  "version": "1.0.0",
+  "description": "This is going to be an easy and fun text based game that I work on periodically throughout my school.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CollinClifford/dungeon-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CollinClifford/dungeon-game/issues"
+  },
+  "homepage": "https://github.com/CollinClifford/dungeon-game#readme"
+}
