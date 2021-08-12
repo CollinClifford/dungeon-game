@@ -4,7 +4,7 @@
   "description": "This is going to be an easy and fun text based game that I work on periodically throughout my school.",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/CollinClifford/dungeon-game/issues"
   },
-  "homepage": "https://github.com/CollinClifford/dungeon-game#readme"
+  "homepage": "https://github.com/CollinClifford/dungeon-game#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3"
+  }
 }
